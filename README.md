@@ -43,3 +43,11 @@ For support vector machines, I discussed how they can be used for binary classif
 
 #### Naive Bayes:
 Regarding Naive Bayes, I focused on its application to text classification tasks, specifically spam detection. I discussed how to represent each email as a bag of words and how to use this representation to train a Naive Bayes classifier. I also talked about the importance of splitting the data into training and test sets to evaluate the performance of the classifier. The main learning goals for this topic were to understand how to represent text data using the bag-of-words model, how to train a Naive Bayes classifier for text classification, and how to evaluate the performance of the classifier using a test set.
+
+## Assignment 3
+
+#### PCA & t-SNE Decompositon:
+The first task was to perform PCA on the dataset and plot the top 4 components. The number of components needed to explain 75% of the variance was determined by the elbow method, which resulted in 39 components. The dataset was then projected to 2D using the top two components and plotted as a scatterplot with classes colored according to their labels. Both PCA and t-SNE were used to visualize the dataset, and it was found that t-SNE provided a more informative plot than PCA.
+
+#### Lloyd's Algorithm (KMeans):
+The second task was to implement Lloyd's algorithm and hierarchical agglomerative clustering on the d-dimensional PCA projections of Fashion-MNIST images. Two initialization techniques for Lloyd's algorithm were implemented, and the algorithm was run for different values of k from 2 to 15. The cost was plotted against k to determine the optimal number of clusters to use. Hierarchical agglomerative clustering was also performed, and the dendrogram was plotted to decide the final clustering.
