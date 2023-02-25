@@ -33,3 +33,13 @@ The specific task was to implement 5-fold cross-validation to select the best re
 The main learning goal was to understand the importance of feature transformation in linear regression and how it can improve the accuracy of the model.
 The specific task was to fit a line to a set of points using linear regression and then use feature transformation to achieve a perfect fit.
         
+## Assignment 2
+
+#### Neural Nets:
+In terms of neural networks, I discussed the basic architecture of feedforward neural networks and how they can be trained using backpropagation. I also talked about the importance of hyperparameters like the number of hidden layers, the number of neurons per layer, and the learning rate. Additionally, I covered regularization techniques like L1 and L2 regularization, and dropout. The main learning goals for this topic were to understand the basic architecture of feedforward neural networks and how to train them using backpropagation, as well as the importance of hyperparameters and regularization in neural network training.
+
+#### Suport Vector Machines:
+For support vector machines, I discussed how they can be used for binary classification tasks and how to train both hard and soft-margin SVM classifiers. I also explored different kernels such as polynomial, Gaussian, and linear kernels, and how to use them to improve the classification accuracy. Finally, I looked at how to use the all-vs-all (AVA) classification trick to extend SVMs to multiclass classification problems. The main learning goals for this topic were to understand the basic concepts behind SVMs, how to train them for binary classification tasks, how to use different kernels to improve classification accuracy, and how to extend SVMs to multiclass classification problems using the all-vs-all classification trick.
+
+#### Naive Bayes:
+Regarding Naive Bayes, I focused on its application to text classification tasks, specifically spam detection. I discussed how to represent each email as a bag of words and how to use this representation to train a Naive Bayes classifier. I also talked about the importance of splitting the data into training and test sets to evaluate the performance of the classifier. The main learning goals for this topic were to understand how to represent text data using the bag-of-words model, how to train a Naive Bayes classifier for text classification, and how to evaluate the performance of the classifier using a test set.
